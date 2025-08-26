@@ -1,0 +1,41 @@
+.checkoutctn{
+    position: relative;
+    background-color: #E7EBED;
+    width: 96%;
+    height: 80%;
+    left: 48%;
+    margin-top: 30px;
+    translate: -50%;
+    border-radius: 20px;
+    padding: 20px;
+}
+.textbox{
+    display: flex;
+    justify-content: space-between;
+    background-color: violet;
+    padding-top: 10px;
+}
+
+.column1{
+    width: 20%;
+    background-color: wheat;
+    padding-left: 20px;margin-top: 10px;
+}
+
+.column2{
+    width: 80%;
+    background-color:cadetblue;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.product-detail{
+    width: 100%;
+}
+
+.finalprice{
+    width: 30%;
+    float: right;
+    background: #f3f3cf;
+
+}

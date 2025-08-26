@@ -1,0 +1,73 @@
+.container-scroller{
+    min-height: 100vh;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* ==========ADD_FORM=============== */
+.categories_properties{
+    position: absolute;
+    background-color: #E7EBED;
+    width: 95%;
+    height: 80%;
+    left: 50%;
+    margin-top: 30px;
+    translate: -50%;
+    border-radius: 5%;
+    padding: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+  
+section.form {
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 0 60px;
+    position: relative;
+    font-family:"Arial";
+}
+
+section.form fieldset {
+    border: 0;
+    background: #1e9cd7;
+    background: -moz-linear-gradient(-32deg,#1e9cd7 0%,#0075be 50%,#ff5b97 100%);
+    background: -webkit-linear-gradient(-32deg,#1e9cd7 0%,#0075be 50%,#ff5b97 100%);
+    background: linear-gradient(142deg,#1e9cd7 0%,#0075be 50%,#ff5b97 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e9cd7',endColorstr='#ff5b97',GradientType=1);
+    margin: 0 0 40px;
+    padding: 3px;
+}
+
+section.form fieldset dd {
+    padding: 5px 40px 20px;
+    margin: 0;
+    text-indent: 0;
+    background: #fff;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    position: relative;
+}
+
+section.form fieldset dd:first-child {
+    padding-top: 40px;
+}
+
+section.form fieldset dd label {
+    display: block;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+section.form fieldset dd input, section.form fieldset dd textarea {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-family: inherit;
+    width: 100%;
+    border: 1px solid #000;
+    background: #fff;
+    padding: 3px;
+    font-size: 16px;
+}

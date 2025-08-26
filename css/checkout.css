@@ -1,0 +1,158 @@
+
+.page{
+	margin-top: 20px ;
+	margin-bottom: 20px;
+	height: fit-content;
+	padding-top: 10px;
+	width:  70%;;
+    border-radius: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+	background: white;
+    position: absolute;    margin-left: 43px;
+    padding-bottom: 30px;
+}
+.header{
+	color: #212e59;
+	font-size:3em;
+	font-family: 'Oswald',sans-serif;text-align: center;padding-top: 10px;
+
+}
+.address{
+	margin-top: 20px;
+	font-size: 13px;
+	font-family: 'oswald', sans-serif;
+}
+.shipping-info-head{
+	column-count: 4;    
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.shipping-info-head h6{
+    font-size: 15px;
+	margin-top: 0px;
+	font-family: 'Teko', sans-serif; 
+}
+
+.shipping-info-head p{
+	font-size: 15px;
+	margin-top: -5px !important;
+	font-weight: 100;
+	font-family: 'Teko', sans-serif; 
+}
+.shipping-info{
+	column-count: 4;
+    margin-top: 10px;
+}
+
+.shipping-info h6{
+	font-size: 15px;
+	margin-top: 0px;
+	font-family: 'Teko', sans-serif; 
+}
+.shipping-info p{
+	font-size: 15px;
+	margin-top: 5px;
+	font-weight: 100;
+	font-family: 'Teko', sans-serif; 
+}
+
+.main-strip{
+	column-count:4;
+	margin-top: 17px;
+}
+
+.main-strip h6{
+	font-size: 15px;
+	color: #212e59;
+	margin-top: 0px;
+	font-family: 'Teko', sans-serif; 
+}
+.top{
+    margin-bottom: 5px;
+    margin-top: 10px;
+	border-top: 2px solid red;
+}
+.bottom{
+    margin-top: 10px;
+	border-top: 2px solid rgb(255, 0, 170);
+}
+
+.shipping{
+	column-count: 4;
+	margin-top: 10px;
+}
+
+.shipping p{
+	font-size: 17px;
+	margin-top: 5px !important;
+	font-weight: 100;
+	font-family: 'Teko', sans-serif; 
+}
+
+
+total{
+	float: right;
+	margin-right: 5px;
+	width: 300px;
+}
+
+.shipping-total{
+	column-count: 2;
+	margin-top: 10px;
+}
+
+
+.shipping-total p{
+	font-size: 17px;
+	margin-top: 5px !important;
+	font-weight: 100;
+	font-family: 'Teko', sans-serif; 
+}
+.shipping-total-1{
+	column-count: 2;
+	margin-top:5px;
+}
+
+.shipping-total-1 p{
+	font-size: 17px;
+	margin-top: 5px !important;
+	font-weight: 100;
+	font-family: 'Teko', sans-serif; 
+}
+.shipping-total-2{
+	column-count: 2;
+	margin-top: 5px;
+}
+.shipping-total-2 h6{
+	font-size: 20px;
+	color: #212e59;
+	margin-top: 0px;
+	font-family: 'Teko', sans-serif; 
+    margin-bottom: 30px;
+}
+
+.main-strip1{
+	column-count: 3;
+	margin-top: 30px;
+}
+
+.main-strip1 h6{
+	font-size: 10px;
+	color: #212e59;
+	margin-top: 0px;
+	font-family: 'Teko', sans-serif; 
+}
+
+.shipping1{
+	column-count: 3;
+	margin-top: 10px;
+}
+
+.shipping1 p{
+	font-size: 10px;
+	margin-top: 5px ;
+	font-weight: 100;
+	font-family: 'Teko', sans-serif; 
+}

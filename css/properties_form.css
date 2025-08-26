@@ -1,0 +1,162 @@
+.container-scroller{
+    min-height: 100vh;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+
+
+
+
+/* ==========ADD_FORM=============== */
+.categories_properties{
+    position: absolute;
+    background-color: #E7EBED;
+    width: 95%;
+    height: 80%;
+    left: 50%;
+    margin-top: 30px;
+    translate: -50%;
+    border-radius: 5%;
+    padding: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+/* -----item-------- */
+.categories_properties .item{
+    display: flex;
+    padding: 5px;
+    padding-right: 20%;
+    padding-left: 5%;
+}
+
+.categories_properties .main-label{
+    font-size: 30px;
+    font-weight: 600;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.item h3{
+    font-weight: 500;
+}
+
+.item input{
+    border: 0;
+    margin-left: 5px;
+    background-color: inherit;
+    font-size: 16px;
+}
+
+.item input:focus{
+    outline: 0;
+}
+
+.item input::placeholder{
+    /* position: absolute; */
+    bottom: 0;
+    color: #7c858b;
+}
+
+.item input:disabled{
+    background-color: #E7EBED;
+    font-size: 18px;
+}
+
+.item h5{
+    font-weight: 400;
+}
+
+/* ----create bolt form */
+ .form-add-bolt{
+    padding-left: 15px;
+}
+.bolt-icon{
+    height: 20px;
+}
+/* .add_bolt > *{
+    padding-left: 2px;
+} */
+
+
+/* -----submit button------- */
+.Btn {
+    width: 100px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: none;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.164);
+    cursor: pointer;
+    background-color: teal;
+}
+
+.text {
+    width: 65%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding-right: 5px;
+}
+
+.btn-icon {
+    width: 35%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.Btn:hover  {
+    background-color: rgb(1, 61, 61);
+}
+
+/* ----------select supplier--------- */
+.select-supplier{
+    border: 0;
+    background-color: inherit;
+    font-size: 16px;
+    padding-top: 2px;
+    appearance: none;
+    padding-left: 6px;
+    font-weight: 400;
+}
+
+.select-supplier:focus{
+    outline: 0;
+}
+
+/* ---------action button-------- */
+
+.button-action {
+  background-color: rgba(51, 51, 51, 0.05);
+  border-radius: 10px;
+  border-width: 0;
+  color: #333333;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 10px 12px;
+  text-align: center;
+  transition: all 200ms;
+  vertical-align: baseline;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-action:hover{
+    background-color: rgba(45, 45, 45, 0.453);
+}

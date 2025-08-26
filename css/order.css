@@ -1,0 +1,58 @@
+
+.page{
+	margin-top: 20px ;
+	margin-bottom: 20px;
+	height: fit-content;
+	padding-top: 10px;
+	width:  70%;;
+    border-radius: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+	background: white;
+    position: absolute;    margin-left: 43px;padding-bottom: 30px;
+    
+}
+.header{
+	color: #212e59;
+	font-size:3em;
+	font-family: 'Oswald',sans-serif;text-align: center;padding-top: 10px;
+
+}
+
+.main-strip{
+	column-count: 4;
+	margin-top: 17px;
+}
+
+.main-strip h6{
+	font-size: 15px;
+	color: #212e59;
+	margin-top: 0px;
+	font-family: 'Teko', sans-serif; 
+}
+.top{
+    margin-bottom: 10px;
+    margin-top: 10px;
+	border-top: 2px solid red;
+}
+.bottom{
+    margin-top: 10px;
+	border-top: 2px solid rgb(241, 126, 174);
+}
+
+.shipping{
+	column-count:4;
+	margin-top: 10px;
+}
+
+.shipping p{
+	font-size: 17px;
+	margin-top: 2px ;
+	font-weight: 100;
+	font-family: 'Teko', sans-serif; 
+}
+
+.shipping:hover{
+	background-color: rgb(87, 134, 253);
+	border-radius: 20px;
+} 

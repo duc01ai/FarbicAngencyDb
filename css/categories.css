@@ -1,0 +1,157 @@
+
+/* search field */
+.search-field1{
+    display: flex;
+    height: 30px;
+    width: 24%;
+    border: solid 2px black;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-left: 5px;
+    position: relative;
+    
+}
+
+.search-field1 .form-search-box{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.search-field1 .form-search-box .search-icon{
+    height: 17px;
+    width: 17px;
+    display: flex;
+    align-items: center;
+    border: 0;
+    background-color: inherit;
+}
+
+.search-field1 .form-search-box .search-icon:hover{
+    background-color: rgb(43, 117, 182);
+    border-radius: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+.search-field1 .form-search-box .search-icon i{
+    font-size: 15px;
+    width: 20px;
+}
+
+.search-field1 .form-search-box input{
+    margin-left: 5px;
+    width: 100%;
+}
+
+.search-field1 .form-search-box input:focus {
+    outline: none;
+}
+
+.search-field1 .search-box{
+    border: 0;
+}
+
+.advanced-search{
+    width: 22px;  
+    height: 22px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.advanced-search:hover{
+    background-color: rgb(215, 215, 215);
+}
+
+.test-select{
+    margin-left: 6.5%;
+    padding-right: 20px;
+    background-color: rgb(218, 218, 218);
+    width: 250px;
+    height: 160px;
+    position: absolute;
+    top: 30px;
+    left: 15px;
+    transform: translateX(-20%);
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.test-select > *{
+    margin-bottom: 8px;
+    padding-right: 5px;
+}
+
+.page{
+	margin-top: 20px ;
+	margin-bottom: 20px;
+	height: fit-content;
+	padding-top: 10px;
+	width:  70%;;
+    border-radius: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+	background: white;
+    position: absolute;    
+	margin-left: 43px;padding-bottom: 30px;
+}
+.header{
+	color: #212e59;
+	font-size:3em;
+	font-family: 'Oswald',sans-serif;text-align: center;padding-top: 10px;
+
+}
+
+.main-strip{
+	column-count: 4;
+	margin-top: 17px;
+}
+
+.main-strip h6{
+	font-size: 15px;
+	color: #212e59;
+	margin-top: 0px;
+	font-family: 'Teko', sans-serif; 
+}
+.top{
+    margin-bottom: 5px;
+    margin-top: 10px;
+	border-top: 2px solid red;
+}
+.bottom{
+    margin-top: 10px;
+	border-top: 2px solid rgb(136, 0, 255);
+}
+
+.shipping{
+	column-count:4;
+	margin-top: 10px;
+	border-radius: 10px;
+	padding: 5px;
+	padding-left: 8px;
+	text-shadow: 1px 1px 1px #333;
+}
+
+.shipping p{
+	font-size: 17px;
+	margin-top: 5px !important;
+	font-weight: 100;
+	font-family: 'Teko', sans-serif; 
+}
+
+/* .shipping:hover{
+	background-color: aquamarine;
+
+} */
+
+a{
+	text-decoration: none;
+	color: rgb(79, 99, 167);
+
+}

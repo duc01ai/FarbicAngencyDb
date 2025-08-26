@@ -1,0 +1,6 @@
+bootstrap:
+ - css: D:\Code\VisualStudioCode\bootstrap_5\bootstrap-5.3.2-dist\css\bootstrap.min.css
+ - js: D:\Code\VisualStudioCode\bootstrap_5\bootstrap-5.3.2-dist\js\bootstrap.bundle.min.js
+
+
+Each bolt  belongs to a specific category such as: silk, khaki, crewel, jacquard, faux silk, and  damask.
